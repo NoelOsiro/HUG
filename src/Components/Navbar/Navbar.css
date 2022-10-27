@@ -1,0 +1,19 @@
+.nav{
+    height: 5rem;
+}
+.navbar.navbar-expand-lg{
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+}
+.nav-link{
+    font-size: large;
+}
+.navbar-brand>img{
+    height: 60px;
+    width: 60px;
+}
+.nav-item>a{
+    padding: 25px;
+}
+.nav-item>a:hover{
+    border-bottom: rgb(91, 114, 199) solid 5px;
+}
