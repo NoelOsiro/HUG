@@ -39,18 +39,18 @@ const NavigationBar: React.FC = () => {
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>
-                            Contact Us
+                            Events
                         </DropdownToggle>
                         <DropdownMenu end>
                             <DropdownItem>Option 1</DropdownItem>
-                            <DropdownItem>Option 2</DropdownItem>
+                            <DropdownItem>Checkout our Blog</DropdownItem>
                             <DropdownItem divider />
                             <DropdownItem>Reset</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <NavItem>
                         <NavLink href="https://github.com/reactstrap/reactstrap">
-                            Contribute
+                            Contact Us
                         </NavLink>
                     </NavItem>
                 </Nav>
