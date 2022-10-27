@@ -3,6 +3,7 @@ import logo from '../../logo.svg';
 import './Navbar.css';
 import {
     Collapse,
+    Button,
     Navbar,
     NavbarToggler,
     NavbarBrand,
@@ -13,7 +14,6 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
-    NavbarText,
 } from 'reactstrap';
 
 const NavigationBar: React.FC = () => {
@@ -37,6 +37,11 @@ const NavigationBar: React.FC = () => {
                             Projects
                         </NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink href="https://github.com/reactstrap/reactstrap">
+                            Contact Us
+                        </NavLink>
+                    </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>
                             Events
@@ -47,14 +52,11 @@ const NavigationBar: React.FC = () => {
                             <DropdownItem divider />
                             <DropdownItem>Reset</DropdownItem>
                         </DropdownMenu>
-                    </UncontrolledDropdown>
-                    <NavItem>
-                        <NavLink href="https://github.com/reactstrap/reactstrap">
-                            Contact Us
-                        </NavLink>
-                    </NavItem>
+                    </UncontrolledDropdown>    
                 </Nav>
-                <NavbarText>Simple Text</NavbarText>
+                <div>
+                    <Button color="primary" outline size="sm">Join Us</Button>
+                </div>
             </Collapse>
         </Navbar>
 
