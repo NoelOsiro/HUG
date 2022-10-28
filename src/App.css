@@ -1,1 +1,12 @@
-
+.header{
+    min-height: 6rem;
+}
+.center-content {
+    text-align: center;
+}
+.site-header{
+    padding-top: 80px;
+}
+.card{
+    min-height:28rem;
+}

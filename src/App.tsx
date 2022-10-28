@@ -1,17 +1,22 @@
 import React from 'react';
-// import {MDBNavbar,MDBNavbarNav,
-//   MDBNavbarItem,MDBNavbarToggler,
-//   MDBNavbarLink,MDBContainer,
-//   MDBIcon,MDBCollapse,MDBBtn
-// } from 'mdb-react-ui-kit';
 import './App.css';
+import Feature from './Components/Features/Feature';
+import Header from './Components/Header/Header';
 import NavigationBar from './Components/Navbar/Navbar';
 
 
 function AppLayout() {
 
   return (
-    <NavigationBar/>
+    <div className='app'>
+      <header className='header mb-4'>
+        <NavigationBar />
+      </header>
+      <main>
+        <Header/>
+        <Feature/>
+      </main>
+    </div>
   );
 }
 

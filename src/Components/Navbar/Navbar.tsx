@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../logo.svg';
+import logo from '../../assets/pics/logo1 (1).png';
 import './Navbar.css';
 import {
     Collapse,Button,
@@ -14,7 +14,7 @@ const NavigationBar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
     return (
-        <Navbar expand='lg' fixed='top' color='light'>
+            <Navbar expand='lg' fixed='top' color='light' className='ps-5 pe-5'>
             <NavbarBrand href="/">
                 <img alt="logo" src={logo}/>
             </NavbarBrand>
@@ -51,6 +51,7 @@ const NavigationBar: React.FC = () => {
                 </div>
             </Collapse>
         </Navbar>
+        
     );
 }
 export default NavigationBar;
