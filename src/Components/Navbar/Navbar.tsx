@@ -2,26 +2,18 @@ import React, { useState } from 'react';
 import logo from '../../logo.svg';
 import './Navbar.css';
 import {
-    Collapse,
-    Button,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
+    Collapse,Button,
+    Navbar,NavbarToggler,
+    NavbarBrand,Nav,
+    NavItem,NavLink,
+    UncontrolledDropdown,DropdownToggle,
+    DropdownMenu,DropdownItem,
 } from 'reactstrap';
 
 const NavigationBar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
-
     return (
-
         <Navbar expand='lg' fixed='top' color='light'>
             <NavbarBrand href="/">
                 <img alt="logo" src={logo}/>
@@ -59,8 +51,6 @@ const NavigationBar: React.FC = () => {
                 </div>
             </Collapse>
         </Navbar>
-
     );
 }
-
 export default NavigationBar;
