@@ -1,19 +1,16 @@
-.nav{
-    height: 5rem;
-}
-.navbar.navbar-expand-lg{
-    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+ul.ml-auto.navbar-nav{
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 500;
 }
 .nav-link{
-    font-size: large;
+    color:black;
+    
 }
-.navbar-brand>img{
-    height: 60px;
-    width: 200px;
+.nav-link:focus, .nav-link:hover {
+    color: rgb(66, 66, 146);
+    border-bottom: 2px solid rgb(66, 66, 146);
 }
-.nav-item>a{
-    padding: 25px;
-}
-.nav-item>a:hover{
-    border-bottom: rgb(91, 114, 199) solid 5px;
+.navbar-brand.nav-link:focus, .navbar-brand.nav-link:hover{
+    border-bottom: none;
 }

@@ -1,0 +1,77 @@
+.blue-bg {
+    background-color: #1E77A7;
+}
+h1.small-title {
+    padding: 70px 0;
+    color: #fff;
+}
+.service-link{
+    position: relative;
+    display: block;
+    align-items: center;
+    margin: 0 -15px;
+    padding: 30px 30px 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition-duration: .5s;
+    transition-property: background-color,box-shadow;
+    transition-timing-function: ease;
+}
+.services-image img {
+    width: 57px;
+    height: 57px;
+    margin: 32px auto;
+}
+.service-title {
+    margin-bottom: 110px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: color .5s ease;
+}
+
+.service_links {
+    top: 180px;
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.service_link {
+    position: relative;
+    display: block;
+    align-items: center;
+    margin: 0 -15px;
+    padding: 30px 30px 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition-duration: .5s;
+    transition-property: background-color,box-shadow;
+    transition-timing-function: ease;
+}
+.service_item {
+    display: block;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 23px;
+    text-decoration: none;
+    color: #999;
+    cursor: pointer;
+}
+.service_link:hover {
+    position: relative;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 36px 64px 0 rgba(0,0,0,.1);
+}
+.service_link:hover .service-title {
+    color: #000;
+}
+.service_link:hover .service_links {
+    opacity: 1;
+}
+.visible-xs {
+    display: none!important;
+}
