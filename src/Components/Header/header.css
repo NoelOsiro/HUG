@@ -4,7 +4,7 @@ video {
     height: 100%;
     width: 100%;
    
-    border-radius: 15px;
+    border-radius: 10px;
     position: absolute;
     top: 0;
     left: 0;
@@ -14,11 +14,8 @@ video {
     /* Telling our absolute positioned video to 
     be relative to this element */
     position: relative;
-    
-
     width: 100%;
-    height: 606px;
-
+    height: 500px;
     /* Will not allow the video to overflow the 
     container */
     overflow: hidden;
@@ -41,6 +38,10 @@ video {
     background: linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%);
     
     animation: shine 3s linear infinite;
+  }
+  .container-fluid.vid {
+    padding-left: 0;
+    padding-right: 0;
   }
   
   /*Begin shimmer code*/

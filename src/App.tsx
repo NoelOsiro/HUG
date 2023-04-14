@@ -9,7 +9,7 @@ function AppLayout() {
 
   return (
     <div className='app'>
-      <header className='header mb-4'>
+      <header className='header'>
         <NavBar />
       </header>
       <main>
