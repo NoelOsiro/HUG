@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel, CarouselItem, CarouselControl, Row } from 'reactstrap';
-import { items } from '../Features/fetaures';
+import { items } from './fetaures';
 import StatsItem from './Countanim';
 
 const INTERVAL_TIME = 5000;

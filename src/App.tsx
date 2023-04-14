@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
-import Feature from './Components/Features/Feature';
-import Header from './Components/Header/Header';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from './Components/Navbar/Navbar';
+import GalleryPage from './Pages/Gallery';
+import HomePage from './Pages/HomePage';
+import GalleryItemPage from './Pages/GalleryItem';
+import Footbar from './Components/Footer/Footbar';
 
 
 function AppLayout() {
@@ -13,9 +16,15 @@ function AppLayout() {
         <NavBar />
       </header>
       <main>
-        <Header/>
-        <Feature/>
+        <Router>
+          <Switch>
+            <Route path="/gallery" component={GalleryPage} />
+            <Route exact path="/gallery/:id" component={GalleryItemPage} />
+            <Route path="/" component={HomePage} />
+          </Switch>
+        </Router>  
       </main>
+      <Footbar/>
     </div>
   );
 }
