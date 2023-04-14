@@ -6,16 +6,15 @@ import Services from '../Components/Services/Services'
 import Social from '../Components/Socials/Social'
 import Solutions from '../Components/Solutions/Solutions'
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
     <>
-        <Header />
+        <Header/>
         <Services/>
         <Solutions/>
         <Facts/>
         <Contact/>
-        <Social/>
-        
+        <Social/>   
     </>
   )
 }

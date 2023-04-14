@@ -21,10 +21,10 @@ const NavBar: React.FC = () => {
             <NavLink href="/causes">Causes</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/donate">Our Blog</NavLink>
+            <NavLink href="/blog">Our Blog</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/volunteer">Volunteer</NavLink>
+            <NavLink href="/join">Volunteer</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/contact">Contact Us</NavLink>
