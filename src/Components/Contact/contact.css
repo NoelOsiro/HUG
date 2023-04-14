@@ -1,0 +1,57 @@
+.contact {
+    background-image: url(../../assets/pics/doted-map.jpg);
+    padding: 70px 0;
+    padding-bottom: 0;
+}
+.contact-title {
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.wow {
+    visibility: visible;
+    animation-duration: 500ms;
+    animation-delay: 300ms;
+    animation-name: fadeInDown;
+}
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.animated {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.contact-form .input-group {
+    width: 100%;
+}
+
+.contact-form .input-field {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.contact-form .input-field:last-child {
+    margin-right: 0;
+}
+.contact-form .form-control {
+    border-color: -moz-use-text-color -moz-use-text-color #cccccc;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+.contact-form #form-submit {
+    background: url(../../assets/pics/envelop.png) no-repeat scroll 0 15px transparent;
+    border: 0 none;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    text-align: right;
+    width: 150px;
+    margin: auto; 
+}

@@ -53,7 +53,7 @@ const Services = () => {
                         </div>
                         <div className="row hidden-xs">
                             {values.map((value:Ivalues)=>(
-                               <div className="col-sm-4 " key={value.title}>
+                               <div className="col-sm-4 mb-4 " key={value.title}>
                                <div className="service_link">
                                    <div className="services-image">
                                        <img alt="Web Development" src={value.image} className="services-img" />

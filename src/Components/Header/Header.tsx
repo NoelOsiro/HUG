@@ -4,7 +4,7 @@ import './header.css';
 
 const Header = () => {
   return (
-    <section className="site-header center-content ">
+    <section className="site-header center-content mb-4 ">
       <div className="container-sm">
         <div className="hero-inner section-inner">
           <div className="hero-content">

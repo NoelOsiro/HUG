@@ -1,0 +1,24 @@
+.social-media {
+    padding: 70px 0;
+}
+.social-bar {
+    font-size: 36px;
+}
+.social-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: -15px;
+}
+.social-bar-link {
+    padding: 20px;
+    color: #cdcdcd;
+    transition: color .3s ease;
+}
+.social-title {
+    font-size: 20px;
+    text-align: center;
+    color: #448cc0;
+    margin-bottom: 10px;
+    font-size: 'Quicksand', sans-serif;
+}
