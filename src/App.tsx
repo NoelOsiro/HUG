@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from './Components/Navbar/Navbar';
 import Footbar from './Components/Footer/Footbar';
 import GalleryPage from './Pages/Gallery';
@@ -20,7 +20,7 @@ function AppLayout() {
         <NavBar />
       </header>
       <main>
-        <Router basename="/HUG">
+        <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route path="/gallery" element={<GalleryPage/>} />
             <Route path="/gallery/:id" element={<GalleryItemPage/>} />
