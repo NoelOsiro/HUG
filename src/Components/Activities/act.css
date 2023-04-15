@@ -1,0 +1,74 @@
+#activities {
+    background-color: white;
+}
+#objectives {
+    background-color: #2691ca;
+}
+.card {
+    min-height: 10rem;
+    transition: transform 0.8s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #2691ca;
+    color: white;
+    
+}
+.card-title {
+    padding: 0 20px
+}
+.card-text {
+    font-family: 'Quiksand', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.obj-card{
+	width:80%;
+	height: 750px;
+	border-radius: 1.25rem;
+	background: #2691ca;
+}
+.icon img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #fff;
+	margin-left: 30px;
+	margin-bottom: 14px;
+
+
+}
+.obj-head{
+	
+	margin-left: 30px;
+	margin-top: 20px;
+	font-weight: bold;
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+}
+.obj-title{
+	
+	
+	margin-top: 24px;
+	font-weight: bold;
+    color: rgb(3, 3, 3);
+    font-family: 'Quicksand',sans-serif;
+}
+.p-text{
+	margin-left: 50px;
+	font-size: 20px;
+	text-align: left;
+    color: white;
+	/*margin-top: -8px;*/
+}
+.p-text:hover{
+    color: black;
+}
+h4{
+	text-align: left;
+	margin-left: 20px;
+	font-size: 1.0rem;
+	}

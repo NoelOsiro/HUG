@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from './Components/Navbar/Navbar';
 import Footbar from './Components/Footer/Footbar';
 import GalleryPage from './Pages/Gallery';
@@ -14,7 +14,6 @@ import JoinPage from './Pages/JoinPage';
 
 
 function AppLayout() {
-
   return (
     <div className='app'>
       <header className='header'>
@@ -22,15 +21,15 @@ function AppLayout() {
       </header>
       <main>
         <Router>
-          <Switch>
-            <Route path="/gallery" component={GalleryPage} />
-            <Route exact path="/gallery/:id" component={GalleryItemPage} />
-            <Route exact path="/about" component={AboutUsPage} />
-            <Route exact path="/blog" component={BlogPage} />
-            <Route exact path="/contact" component={ContactPage} />
-            <Route exact path="/join" component={JoinPage} />
-            <Route path="/" component={HomePage} />
-          </Switch>
+          <Routes>
+            <Route path="/gallery" element={<GalleryPage/>} />
+            <Route path="/gallery/:id" element={<GalleryItemPage/>} />
+            <Route path="/about" element={<AboutUsPage/>} />
+            <Route path="/blog" element={<BlogPage/>} />
+            <Route path="/contact" element={<ContactPage/>} />
+            <Route path="/join" element={<JoinPage/>} />
+            <Route path="/" element={<HomePage/>} />
+          </Routes>
         </Router>  
       </main>
       <Footbar/>

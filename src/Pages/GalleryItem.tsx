@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Container } from "reactstrap";
-import { GalleryItem, galleryItems } from "./Gallery";
+import {  galleryItems } from "./Gallery";
 
 interface RouteParams {
   [key: string]: string | undefined;

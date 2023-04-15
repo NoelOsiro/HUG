@@ -1,11 +1,73 @@
 .blue-bg {
     background-color: #1E77A7;
 }
+.about-bg {
+    background: url(../../assets/pics/IMG_0235.JPG);
+    background-size:cover;
+    height: 600px;
+    color: beige;
+}
+.blockquote-footer{
+    color: white;
+}
+.custom-button {
+    background-color: #1E77A7;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 10px 5px rgba(0, 0, 0, 0.4);
+    width: 140px;
+    height: 45px;
+  }
+  
+  .custom-button:hover {
+    background-color: #095c80;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+.slide-in {
+    animation: slide-in 2.5s ease-in;
+    opacity: 1;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  
 h1.small-title {
     padding: 60px 0;
     color: #fff;
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
+}
+h1.mission-title {
+    padding: 60px 0;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+#mission {
+    background: url(../../assets/pics/meute-muete.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-color: white;
+}
+.mission-text {
+    font-family: 'Quicksand', sans-serif;
+    color: #030303;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 600;
 }
 .service-link{
     position: relative;

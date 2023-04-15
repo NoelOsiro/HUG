@@ -44,7 +44,7 @@ const GalleryPage: React.FC = () => {
           <Col md={4} key={item.id}>
             <Link to={`/gallery/${item.id}`}>
               <Card>
-                <CardImg top width="100%" src={item.imageUrl} alt={item.title} />
+                <CardImg top width="100%" src={item.imageUrl} alt={item.title} onClick={()=>handleCardClick(item)} />
               </Card>
             </Link>
           </Col>

@@ -17,7 +17,7 @@ const Header = () => {
             </h1>
             <div className="container-xs">
               <h3 className="m-0 mb-5 text-muted">
-                Meaningful youth’s engagement, non-discrimination, accountability and integrity.
+                To empower a community of children, youth and women to live up to their fullest potential.
               </h3>
             </div>
           </div>

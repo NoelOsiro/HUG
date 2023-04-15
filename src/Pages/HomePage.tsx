@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
   return (
     <>
         <Header/>
-        <Services/>
+        <Services bg={'blue-bg'}/>
         <Solutions/>
         <Facts/>
         <Contact/>
