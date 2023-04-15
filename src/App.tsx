@@ -20,7 +20,7 @@ function AppLayout() {
         <NavBar />
       </header>
       <main>
-        <Router>
+        <Router basename="/HUG">
           <Routes>
             <Route path="/gallery" element={<GalleryPage/>} />
             <Route path="/gallery/:id" element={<GalleryItemPage/>} />
