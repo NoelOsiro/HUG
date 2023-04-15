@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/HUG/static/css/main.f1c81fb8.css",
+    "main.js": "/HUG/static/js/main.cd13b82e.js",
+    "static/js/787.2861f6ef.chunk.js": "/HUG/static/js/787.2861f6ef.chunk.js",
+    "static/media/IMG_0235.JPG": "/HUG/static/media/IMG_0235.3d9dc3441d1cbf4984dd.JPG",
+    "static/media/read.jpg": "/HUG/static/media/read.bb1b4cbc625661e4b5df.jpg",
+    "static/media/childEat.jpg": "/HUG/static/media/childEat.e8215c71e5287618eb2b.jpg",
+    "static/media/meute-muete.gif": "/HUG/static/media/meute-muete.45cb7cf8846ab85d77a9.gif",
+    "static/media/fa-solid-900.ttf": "/HUG/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/childEd.jpg": "/HUG/static/media/childEd.b2db06434a1d611ede07.jpg",
+    "static/media/fa-brands-400.ttf": "/HUG/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/headervid.mp4": "/HUG/static/media/headervid.3031d7da211bc86056b9.mp4",
+    "static/media/fa-solid-900.woff2": "/HUG/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/doted-map.jpg": "/HUG/static/media/doted-map.fe2bbb1f4db355f674ad.jpg",
+    "static/media/fa-brands-400.woff2": "/HUG/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/HUG/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/sust.png": "/HUG/static/media/sust.9836879e402b4135ab58.png",
+    "static/media/partners.png": "/HUG/static/media/partners.e155b669eee0d9202bc3.png",
+    "static/media/international-childrens-day.png": "/HUG/static/media/international-childrens-day.aa1a8eba8116d0c1a79c.png",
+    "static/media/4108.jpg": "/HUG/static/media/4108.df8946b41008c2ba37c7.jpg",
+    "static/media/love.png": "/HUG/static/media/love.8154207cbc9918b446a7.png",
+    "static/media/house.png": "/HUG/static/media/house.e001bb2169f0a56422dc.png",
+    "static/media/fa-regular-400.woff2": "/HUG/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/complete.png": "/HUG/static/media/complete.d9c7eab780a16c489ff4.png",
+    "static/media/navigation.png": "/HUG/static/media/navigation.3467fd933acae6fbd55e.png",
+    "static/media/fa-v4compatibility.ttf": "/HUG/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/HUG/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/HUG/index.html",
+    "main.f1c81fb8.css.map": "/HUG/static/css/main.f1c81fb8.css.map",
+    "main.cd13b82e.js.map": "/HUG/static/js/main.cd13b82e.js.map",
+    "787.2861f6ef.chunk.js.map": "/HUG/static/js/787.2861f6ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1c81fb8.css",
+    "static/js/main.cd13b82e.js"
+  ]
+}
