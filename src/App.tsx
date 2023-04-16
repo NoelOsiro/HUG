@@ -20,7 +20,7 @@ function AppLayout() {
         <NavBar />
       </header>
       <main>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router >
           <Routes>
             <Route path="/gallery" element={<GalleryPage/>} />
             <Route path="/gallery/:id" element={<GalleryItemPage/>} />
